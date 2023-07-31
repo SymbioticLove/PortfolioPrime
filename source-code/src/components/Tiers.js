@@ -36,7 +36,7 @@ const Tiers = () => {
           <tr>
             <td>Additional pages</td>
             <td>$100 each</td>
-            <td>+~$7/mo.</td>
+            <td>+~$9/mo.</td>
             <td>+3 Days</td>
           </tr>
         </tbody>
