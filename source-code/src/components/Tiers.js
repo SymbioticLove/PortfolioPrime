@@ -31,13 +31,13 @@ const Tiers = () => {
             <td>5 pages</td>
             <td>$425</td>
             <td>$38.36/mo.</td>
-            <td>14 Days</td>
+            <td>10 Days</td>
           </tr>
           <tr>
             <td>Additional pages</td>
             <td>$100 each</td>
             <td>+~$7/mo.</td>
-            <td>+2 Days</td>
+            <td>+3 Days</td>
           </tr>
         </tbody>
       </table>
