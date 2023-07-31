@@ -23,7 +23,6 @@
   height: auto;
   border-radius: 15px;
   transition:
-    background 0.3s ease-in-out,
     transform 0.3s ease-in-out;
   position: relative;
   border-radius: 25px;
@@ -114,11 +113,19 @@
 /* Add responsiveness for mobile */
 @media (max-width: 768px) {
   .logo {
-    display: none;
+    width: 50px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .logo img {
+    width: 60px;
   }
 
   .nav-link {
     font-size: 0.8rem;
+    width: 130px;
   }
 
   .header-container {
