@@ -22,6 +22,13 @@ const Incentives = () => {
           </p>
         </li>
         <li className="incentives-list-item">
+          Not a CMS/Web Builder project
+          <p>
+            This is not a CMS or Web builder project, it is an individually
+            hosted and permanently managed personal page.
+          </p>
+        </li>
+        <li className="incentives-list-item">
           Easy access to source code
           <p>
             With full access to your portfolio&apos;s source code, you maintain
