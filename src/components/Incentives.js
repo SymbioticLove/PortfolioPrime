@@ -7,6 +7,13 @@ const Incentives = () => {
       <h2 className="incentives-title">Why Choose Us?</h2>
       <ul className="incentives-list">
         <li className="incentives-list-item">
+          Unbeatable prices and payment through ShopPay
+          <p>
+            With prices starting at $225, and installment payments available
+            through ShopPay, you can get online for as little as $20!
+          </p>
+        </li>
+        <li className="incentives-list-item">
           Free hosting, updates, and lifetime support
           <p>
             We handle all the technical details so you can focus on what&apos;s
