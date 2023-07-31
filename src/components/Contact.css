@@ -1,0 +1,53 @@
+.contact-container {
+  padding: 2rem;
+  font-family: var(--Body);
+}
+
+.contact-title {
+  color: var(--Blue);
+  font-family: var(--Acnt);
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  margin-bottom: 1rem;
+  color: var(--Dgry);
+  font-weight: bold;
+}
+
+.contact-details p {
+  margin: 0.5rem 0;
+}
+
+.contact-details strong {
+    font-family: var(--Head);
+    color: var(--Dgry)
+}
+
+.contact-details strong:last-child {
+    color: var(--Orng);
+}
+
+.contact-details a {
+  color: var(--Blue);
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  color: var(--Orng);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1rem;
+  }
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .contact-container {
+    padding: 1.5rem;
+  }
+}

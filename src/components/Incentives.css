@@ -1,0 +1,61 @@
+.incentives-container {
+  font-family: var(--Body);
+  color: var(--Dgry);
+  padding: 2rem;
+  animation: incentivesFadeIn 1.5s forwards;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.incentives-title {
+  font-family: var(--Head);
+  color: var(--Blue);
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.incentives-list {
+  list-style: none;
+  padding: 0;
+}
+
+.incentives-list-item {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.incentives-list-item p {
+    text-indent: 30px;
+}
+
+.incentives-list-item::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--Orng);
+  font-weight: bold;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .incentives-container {
+    font-size: .9rem;
+    padding: 1rem;
+  }
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .incentives-container {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+@keyframes incentivesFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,38 @@
+.examples-container {
+  padding: 20px;
+  background: var(--Dgry);
+}
+
+.examples-title {
+  color: var(--Lgry);
+  font-family: var(--Head);
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.example-link {
+  color: var(--Orng);
+  font-family: var(--Body);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.example-link:hover {
+  text-decoration: underline;
+}
+
+.mobile-layout {
+  display: none;
+  color: var(--Lgry);
+  font-family: var(--Head);
+}
+
+@media (max-width: 768px) {
+  .mobile-layout {
+    display: flex;
+    text-align: center;
+  }
+}
