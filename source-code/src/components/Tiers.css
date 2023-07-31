@@ -60,10 +60,11 @@
     text-align: center;
   }
 
-  .tiers-table {}
+  .tiers-table {
+  }
 
   .tiers-table td {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }
 
