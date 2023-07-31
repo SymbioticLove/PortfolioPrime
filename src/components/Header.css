@@ -22,12 +22,12 @@
   width: 150px;
   height: auto;
   border-radius: 15px;
-  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
-  background-image: url('../../public/logo11.svg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  transition:
+    background 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
   position: relative;
   border-radius: 25px;
+  animation: fadeIn 5s;
 }
 
 .logo img {
@@ -51,20 +51,22 @@
   color: var(--Blue);
   margin-left: 10px;
   animation: slideInFromLeft 1.5s;
+  margin-bottom: 0;
 }
 
 .subtitle {
   font-family: var(--Acnt);
   color: var(--Dgry);
-  margin-left: 60px;
+  margin-left: 40px;
   animation: slideInFromLeft 1.5s;
+  margin-top: 0.25rem;
 }
 
 .nav-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 1s
+  animation: fadeIn 1s;
 }
 
 .nav-link {
@@ -72,7 +74,9 @@
   color: var(--Dgry);
   margin-bottom: 15px;
   text-decoration: none;
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition:
+    color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
   width: 175px;
   text-align: right;
   font-size: 1.1rem;
@@ -99,8 +103,12 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Add responsiveness for mobile */
@@ -110,7 +118,7 @@
   }
 
   .nav-link {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .header-container {
@@ -122,7 +130,7 @@
   }
 
   .subtitle {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-left: 1rem;
   }
 }

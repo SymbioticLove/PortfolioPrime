@@ -28,11 +28,11 @@
 }
 
 .incentives-list-item p {
-    text-indent: 30px;
+  text-indent: 30px;
 }
 
 .incentives-list-item::before {
-  content: "✔";
+  content: '✔';
   position: absolute;
   left: 0;
   color: var(--Orng);
@@ -42,7 +42,7 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .incentives-container {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 1rem;
   }
 }
@@ -56,6 +56,10 @@
 }
 
 @keyframes incentivesFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

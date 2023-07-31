@@ -1,13 +1,11 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.use(
     'http://localhots:5000/api/data',
     createProxyMiddleware({
       target: 'http://localhost:3000',
       changeOrigin: true,
-    })
+    }),
   );
 };
-
-

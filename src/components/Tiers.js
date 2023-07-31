@@ -31,7 +31,11 @@ const Tiers = () => {
           </tr>
         </tbody>
       </table>
-      <p className="tiers-note">Prices include tax and all incentives described. Custom business cards with a QR code for your new portfolio can be included, 500 for an additional $75.</p>
+      <p className="tiers-note">
+        Prices include tax and all incentives described. Custom business cards
+        with a QR code for your new portfolio can be included, 500 for an
+        additional $75.
+      </p>
     </div>
   );
 };

@@ -9,10 +9,10 @@ body {
 
 :root {
   --Blue: #1a5276;
-  --Orng: #F39C12;
-  --Lgry: #ECF0F1;
-  --Dgry: #7B8A8B;
-  --Head: Montserrat,sans-serif;
-  --Body: 'Open Sans',sans-serif;
-  --Acnt: Raleway,sans-serif;
+  --Orng: #f39c12;
+  --Lgry: #ecf0f1;
+  --Dgry: #7b8a8b;
+  --Head: Montserrat, sans-serif;
+  --Body: 'Open Sans', sans-serif;
+  --Acnt: Raleway, sans-serif;
 }

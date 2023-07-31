@@ -20,12 +20,19 @@
 }
 
 .contact-details strong {
-    font-family: var(--Head);
-    color: var(--Dgry)
+  font-family: var(--Head);
+  color: var(--Dgry);
 }
 
 .contact-details strong:last-child {
-    color: var(--Orng);
+  transition:
+    color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  color: var(--Blue);
+}
+
+.contact-details strong:last-child:hover {
+  color: var(--Orng);
 }
 
 .contact-details a {
@@ -34,7 +41,9 @@
 }
 
 .contact-details a:hover {
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition:
+    color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
   color: var(--Orng);
 }
 

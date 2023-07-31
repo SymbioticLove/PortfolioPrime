@@ -11,14 +11,14 @@
 }
 
 .description-title {
-  font-family: var(--Head);
+  font-family: var(--Acnt);
   color: var(--Blue);
   animation: descriptionSlideIn 1.5s;
   font-size: 2.5rem;
 }
 
 .description-content {
-  line-height: 1.5;
+  line-height: 2;
   font-size: 1.2rem;
 }
 
@@ -32,8 +32,12 @@
 }
 
 @keyframes descriptionFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes descriptionSlideIn {
@@ -50,7 +54,7 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .description-container {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 1rem;
     margin-top: 2rem;
   }
@@ -61,6 +65,10 @@
 
   .description-content {
     font-size: 1rem;
+  }
+
+  .emphasis {
+    font-size: 0.9rem;
   }
 }
 

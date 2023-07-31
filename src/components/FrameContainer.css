@@ -56,13 +56,13 @@
   color: var(--Dgry);
   font-size: 1.5rem;
 }
-@media (max-width: 1600px)  {
+
+@media (max-width: 1600px) {
   .tablet iframe {
     width: 900px;
   }
 
   .mobile iframe {
-    width: 350px;
     height: 650px;
   }
 }
