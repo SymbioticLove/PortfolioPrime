@@ -59,6 +59,12 @@
   .tiers-title {
     text-align: center;
   }
+
+  .tiers-table {}
+
+  .tiers-table td {
+    font-size: .7rem;
+  }
 }
 
 /* Tablet responsiveness */

@@ -10,24 +10,34 @@ const Tiers = () => {
           <tr>
             <th>Pages</th>
             <th>Price</th>
+            <th>ShopPay Price</th>
+            <th>Development Time</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1–2 pages</td>
-            <td>$375</td>
+            <td>$225</td>
+            <td>$20.31/mo.</td>
+            <td>3 Days</td>
           </tr>
           <tr>
             <td>3–4 pages</td>
-            <td>$550</td>
+            <td>$325</td>
+            <td>$29.33/mo.</td>
+            <td>7 Days</td>
           </tr>
           <tr>
             <td>5 pages</td>
-            <td>$725</td>
+            <td>$425</td>
+            <td>$38.36/mo.</td>
+            <td>14 Days</td>
           </tr>
           <tr>
             <td>Additional pages</td>
-            <td>$200 each</td>
+            <td>$100 each</td>
+            <td>+~$7/mo.</td>
+            <td>+2 Days</td>
           </tr>
         </tbody>
       </table>
