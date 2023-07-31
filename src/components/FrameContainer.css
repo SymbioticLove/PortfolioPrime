@@ -7,6 +7,7 @@
   padding: 1rem;
   border-radius: 15px;
   background: var(--Lgry);
+  animation: descriptionFadeIn 1.5s forwards;
 }
 
 .frame-container h1 {
@@ -28,7 +29,6 @@
 .frame-container iframe {
   margin-top: 3rem;
   border: 3px solid var(--Dgry);
-  animation: descriptionFadeIn 1.5s forwards;
 }
 
 .lower-frame-container iframe {
