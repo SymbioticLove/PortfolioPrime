@@ -28,6 +28,7 @@
 .frame-container iframe {
   margin-top: 3rem;
   border: 3px solid var(--Dgry);
+  animation: descriptionFadeIn 1.5s forwards;
 }
 
 .lower-frame-container iframe {
@@ -55,6 +56,15 @@
   font-family: var(--Head);
   color: var(--Dgry);
   font-size: 1.5rem;
+}
+
+@keyframes descriptionFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1600px) {
