@@ -40,7 +40,7 @@ const Incentives = () => {
           Permanent portfolio/resume solution
           <p>
             With our service, your portfolio is forever. Showcase your work and
-            experience in a platform that grows with you.
+            experience on a platform that grows with you.
           </p>
         </li>
         <li className="incentives-list-item">
