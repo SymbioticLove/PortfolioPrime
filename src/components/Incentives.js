@@ -22,7 +22,7 @@ const Incentives = () => {
           </p>
         </li>
         <li className="incentives-list-item">
-          Not a CMS/Web Builder project
+          Not a CMS/Web builder project
           <p>
             This is not a CMS or Web builder project, it is an individually
             hosted and permanently managed personal page.
