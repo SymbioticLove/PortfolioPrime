@@ -6,7 +6,7 @@ const Description = () => {
     <div className="description-container">
       <h2 className="description-title">Welcome to PortfolioPrime</h2>
       <p className="description-content">
-        We are a small business with a development arm, providing a unique SaaS
+        We are a small business with a development arm providing a unique SaaS
         platform designed to create, host, maintain, and update client
         portfolios. These are all personally designed and customized. A client
         has absolute control over what goes on the screen, to the pixel,
