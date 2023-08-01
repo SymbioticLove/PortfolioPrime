@@ -36,7 +36,7 @@ function Footer({ scrollToTop }) {
           Work Examples
         </Link>
         <a
-          href="https://shop.symbiotic.love/products/portfolio-resume-web-page"
+          href="https://portfolioprime.youcanbook.me/"
           className="footer-nav-link"
           target="_blank"
           rel="noopener noreferrer"

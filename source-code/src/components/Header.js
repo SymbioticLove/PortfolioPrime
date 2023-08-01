@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 import PropTypes from 'prop-types';
+import { gsap } from 'gsap';
 
 const Header = ({ scrollToTop }) => {
   const location = useLocation();
@@ -10,6 +11,39 @@ const Header = ({ scrollToTop }) => {
   const isLinkActive = linkPath => {
     return currentPath === linkPath;
   };
+
+  useEffect(() => {
+    const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
+
+    tl.fromTo(
+      '.logo',
+      { y: -100, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1, ease: 'bounce.out' },
+    )
+      .fromTo(
+        '.title',
+        { x: -10, opacity: 0 },
+        { x: 0, opacity: 1, duration: 1 },
+        '-=0.5',
+      )
+      .fromTo(
+        '.subtitle',
+        { x: -10, opacity: 0 },
+        { x: 0, opacity: 1, duration: 1 },
+        '-=0.5',
+      )
+      .fromTo(
+        '.nav-link',
+        { y: -5, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.5, stagger: 0.2 },
+        '+=.4',
+      )
+      .then(() => {
+        document.querySelectorAll('.nav-link').forEach(el => {
+          el.style.transform = '';
+        });
+      });
+  }, []);
 
   return (
     <div className="header-container">
@@ -42,7 +76,7 @@ const Header = ({ scrollToTop }) => {
           Work Examples
         </Link>
         <a
-          href="https://shop.symbiotic.love/products/portfolio-resume-web-page"
+          href="https://portfolioprime.youcanbook.me/"
           className="nav-link nav-link2"
           target="_blank"
           rel="noopener noreferrer"

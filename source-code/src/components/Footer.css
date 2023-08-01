@@ -28,6 +28,7 @@
 .footer-nav-link:hover {
   color: var(--Orng);
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .footer-nav-link.active {

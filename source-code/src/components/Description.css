@@ -3,7 +3,7 @@
   color: var(--Dgry);
   text-align: justify;
   padding: 2rem;
-  animation: descriptionFadeIn 1.5s forwards;
+  /* animation: descriptionFadeIn 1.5s forwards; */
   margin-top: 11rem;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 .description-title {
   font-family: var(--Acnt);
   color: var(--Blue);
-  animation: descriptionSlideIn 1.5s;
+  /* animation: descriptionSlideIn 1.5s; */
   font-size: 2.5rem;
 }
 

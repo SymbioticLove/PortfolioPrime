@@ -6,11 +6,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0; /* This will make sure the header stretches to the full width of the screen */
+  right: 0;
   padding: 10px;
   box-sizing: border-box;
   border-bottom: 3px solid var(--Blue);
   z-index: 10000;
+}
+
+.logo,
+.title,
+.subtitle,
+.nav-link {
+  opacity: 0;
 }
 
 .logo-title {
@@ -22,10 +29,10 @@
   width: 150px;
   height: auto;
   border-radius: 15px;
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out; */
   position: relative;
   border-radius: 25px;
-  animation: fadeIn 5s;
+  /* animation: fadeIn 5s; */
 }
 
 .logo img {
@@ -48,7 +55,7 @@
   font-family: var(--Head);
   color: var(--Blue);
   margin-left: 10px;
-  animation: slideInFromLeft 1.5s;
+  /* animation: slideInFromLeft 1.5s; */
   margin-bottom: 0;
 }
 
@@ -56,7 +63,7 @@
   font-family: var(--Acnt);
   color: var(--Dgry);
   margin-left: 40px;
-  animation: slideInFromLeft 1.5s;
+  /* animation: slideInFromLeft 1.5s; */
   margin-top: 0.25rem;
 }
 
@@ -64,7 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 1s;
+  /* animation: fadeIn 1s; */
 }
 
 .nav-link {
@@ -83,6 +90,7 @@
 .nav-link:hover {
   transform: translateY(-5px);
   color: var(--Orng);
+  cursor: pointer;
 }
 
 .nav-link.active {
