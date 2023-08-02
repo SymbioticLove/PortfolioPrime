@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import gsap from 'gsap';
+import { gsap } from 'gsap';
 import './Description.css';
 
 // Global variable to keep track of whether animations have run
@@ -10,16 +10,16 @@ const Description = () => {
     // Only run animations if they have not run before
     if (!animationsHaveRun) {
       animationsHaveRun = true; // Set flag to true since animations are running now
-      const tl = gsap.timeline({ delay: 3.5 });
+      const tl = gsap.timeline({ delay: 4 });
 
       tl.fromTo(
         '.description-title',
-        { y: -50, opacity: 0 },
-        { y: 0, opacity: 1, duration: 1 },
+        { y: -40, opacity: 0 },
+        { y: -10, opacity: 1, duration: 1, ease: 'back.out' },
       ).fromTo(
         '.description-content',
         { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, duration: 1, delay: 0.5 },
+        { y: 0, opacity: 1, duration: 1.5, delay: 0.5, ease: 'power4.out' },
       );
     }
   }, []);

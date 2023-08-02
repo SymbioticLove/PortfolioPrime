@@ -4,7 +4,7 @@
   text-align: justify;
   padding: 2rem;
   /* animation: descriptionFadeIn 1.5s forwards; */
-  margin-top: 11rem;
+  margin-top: 9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .description-content {
-  line-height: 2;
+  line-height: 2.5;
   font-size: 1.2rem;
 }
 

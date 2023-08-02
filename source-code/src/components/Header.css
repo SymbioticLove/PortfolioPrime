@@ -13,12 +13,12 @@
   z-index: 10000;
 }
 
-.logo,
+/* .logo,
 .title,
 .subtitle,
 .nav-link {
   opacity: 0;
-}
+} */
 
 .logo-title {
   display: flex;
@@ -45,10 +45,6 @@
 
 .logo:hover img {
   opacity: 0;
-}
-
-.logo:hover {
-  transform: scale(1.05);
 }
 
 .title {
@@ -125,7 +121,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    opacity: 1;
   }
   .logo img {
     width: 60px;

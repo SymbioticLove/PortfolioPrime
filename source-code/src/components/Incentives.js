@@ -46,10 +46,18 @@ const Incentives = () => {
           </p>
         </li>
         <li className="incentives-list-item">
-          Unbeatable prices and payment through ShopPay
+          Unbeatable prices and installments through ShopPay
           <p>
             With prices starting at $225, and installment payments available
             through ShopPay, you can get online for as little as $20.
+          </p>
+        </li>
+        <li className="incentives-list-item">
+          $150 off for our first 25 clients
+          <p>
+            As a special incentive for our first 25 clients, we are offering a
+            flat $150 discount to all services. That&apos;s as little as $75 for
+            life.
           </p>
         </li>
         <li className="incentives-list-item">

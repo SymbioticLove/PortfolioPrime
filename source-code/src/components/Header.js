@@ -18,24 +18,24 @@ const Header = ({ scrollToTop }) => {
     tl.fromTo(
       '.logo',
       { y: -100, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1, ease: 'bounce.out' },
+      { y: -10, opacity: 1, duration: 1, ease: 'power3.out' },
     )
       .fromTo(
         '.title',
-        { x: -10, opacity: 0 },
-        { x: 0, opacity: 1, duration: 1 },
+        { x: -40, opacity: 0 },
+        { x: 0, opacity: 1, duration: 1.25, ease: 'sine.out' },
         '-=0.5',
       )
       .fromTo(
         '.subtitle',
-        { x: -10, opacity: 0 },
-        { x: 0, opacity: 1, duration: 1 },
+        { x: -60, opacity: 0 },
+        { x: 0, opacity: 1, duration: 1, ease: 'sine.out' },
         '-=0.5',
       )
       .fromTo(
         '.nav-link',
         { y: -5, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, stagger: 0.2 },
+        { y: 0, opacity: 1, duration: 0.5, ease: 'sine.out', stagger: 0.2 },
         '+=.4',
       )
       .then(() => {
